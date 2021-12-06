@@ -24,10 +24,26 @@ nav ul li a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
 }
+main  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-flow: wrap;
+}
 #kaiden {
   width: 25%;
   height: auto;
   opacity: .75;
+  margin: 15px;
+  padding: 15px;
+  background-color: blanchedalmond;
+  border-style: double;
+  border-color: black;
+  border-width: 5px;
+  flex: 0 1 20%;
+}
+.left-text  {
+  flex: 0 1 20%;
 }
 .title  {
   font-size: 32px;
@@ -39,7 +55,12 @@ nav ul li a {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
+  flex: 0 1 60%;
+}
+.bodies {
+  flex: 0 1 50%;
+
 }
 .card {
   flex: 1 0 200px;
