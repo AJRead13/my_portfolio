@@ -44,6 +44,12 @@ main  {
 }
 .left-text  {
   flex: 0 1 20%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-style: ridge;
+  border-width: 3px;
+  border-color: bisque;
+  
 }
 .title  {
   font-size: 32px;
