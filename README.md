@@ -13,7 +13,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 ## Installation
 No install required
 ## Usage
-Open in browser. 
+Open in browser. https://ajread13.github.io/my_portfolio/
 ## Screenshot
 ![screenshot](assets/images/devportfolioss.png)
 ## Credits
