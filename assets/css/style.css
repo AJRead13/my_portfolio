@@ -3,16 +3,17 @@
   font-size: 18px;
   color: azure;
 }
-
 body  {
   background:rgb(80, 91, 102);  
 }
+/*Establishing the main flexbox for the page*/
 main  {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 5%;
 }
+/*Establishing seperate flexbox*/
 header  {
   display: flex;
   flex-wrap: wrap;
@@ -56,7 +57,6 @@ nav ul li label {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
 }
 #kaiden {
   width: 50%;
@@ -78,6 +78,7 @@ nav ul li label {
   font-style: italic;
   font-weight: bold;
 }
+/*Establishing first level nested flexbox*/
 .project-windows  {
   display: flex;
   flex-direction: row;
@@ -92,19 +93,7 @@ nav ul li label {
   flex: 0 1 100%;
   margin: 10px; 
 }
-#horiseon {
-  width: 65%;
-}
-#spacex {
-  width: 65%;
-}
-#spaceman {
-  width: 65%;
-}
-#eclipse  {
-  width: 65%;
-}
-#starship {
+.space  {
   width: 65%;
 }
 .card {
@@ -128,6 +117,7 @@ nav ul li label {
   border-radius: 8px;
   transition: all 0.5s ease-in-out;
 }
+/*cursor effects*/
 .card:hover,
 .card:hover  .card-head  {
   box-shadow: 3px 3px 8px rgb(53, 248, 138);
@@ -141,12 +131,10 @@ nav ul li label {
 }
 button  {
   color: black;
-
 }
 .emailMe  {
   display: inline-block;
 }
-
 footer{
   text-align: center;
   font-size: 18px;
@@ -154,12 +142,11 @@ footer{
   font-weight: bold;
   margin-top: 18px;
 }
-
+/*attempts to optimize layout based on viewport window max width*/
 @media screen and (max-width: 992px) {
   .card {
     width: 50%;
   }
-
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
