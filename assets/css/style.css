@@ -2,8 +2,8 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
   color: azure;
-
 }
+
 body  {
   background:rgb(80, 91, 102);  
 }
@@ -86,16 +86,30 @@ nav ul li label {
   flex: 0 0 70%;
 }
 .bodies {
-  flex: 0 1 50%;
+  flex: 0 1 48%;
 }
 #bigOne {
   flex: 0 1 100%;
   margin: 10px; 
 }
+#horiseon {
+  width:75%;
+}
+#spacex {
+  width: 75%;
+}
+#spaceman {
+  width: 65%;
+}
+#eclipse  {
+  width: 75%;
+}
+#starship {
+  width: 75%;
+}
 .card {
   flex: 0 1 auto;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
   text-align: center;
   border-style: solid;
   border-width: 3px;
@@ -125,6 +139,10 @@ nav ul li label {
   padding: 5px;
   text-align: center;
 }
+button  {
+  color: black;
+
+}
 .emailMe  {
   display: inline-block;
 }
@@ -136,3 +154,13 @@ footer{
   font-weight: bold;
   margin-top: 18px;
 }
+
+@media screen and (max-width: 992px) {
+  .card {
+    width: 50%;
+  }
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
