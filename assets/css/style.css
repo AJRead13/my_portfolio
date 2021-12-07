@@ -93,19 +93,19 @@ nav ul li label {
   margin: 10px; 
 }
 #horiseon {
-  width:75%;
+  width: 65%;
 }
 #spacex {
-  width: 75%;
+  width: 65%;
 }
 #spaceman {
   width: 65%;
 }
 #eclipse  {
-  width: 75%;
+  width: 65%;
 }
 #starship {
-  width: 75%;
+  width: 65%;
 }
 .card {
   flex: 0 1 auto;

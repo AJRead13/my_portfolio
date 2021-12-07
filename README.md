@@ -1,8 +1,8 @@
 # My Portfolio
 ## Description
 - The scope of this assignment was to build a web page from scratch that will serve as our Portfolio page.
-- I have built this project to showcase my abilities to write and stylize a web page from the ground up and also create a page to showcase my current completed works.
-- I ran into many issues during the construction of this page, but there diligent research have managed to overcome most of them, namely, FLexbox.  
+- I have built this project to showcase my abilities to write and stylize a web page from the ground up and also create a page to showcase my current, completed works.
+- I ran into many issues during the construction of this page, but through diligent research, have managed to overcome most of them, namely, FLexbox.  
 - Through this assignment I have learned better practices for nesting flexbox as well many techniques to make a page more appealing and dynamic.
 ## Table of Contents (Optional)
 If your README is long, add a table of contents to make it easy for users to find what they need.
@@ -15,7 +15,7 @@ No install required
 ## Usage
 Open in browser. 
 ## Screenshot
-![screenshot](...)
+![screenshot](assets/images/devportfolioss.png)
 ## Credits
 List of collaborators: None
 ## License
