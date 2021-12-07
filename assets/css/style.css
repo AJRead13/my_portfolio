@@ -16,6 +16,7 @@ nav ul li{
 nav ul{
   border-style: solid;
   border-color:turquoise;
+  background-color: burlywood;
 
 }
 nav ul li a {
@@ -24,22 +25,16 @@ nav ul li a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
 }
-main  {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-flow: wrap;
-}
-#bio {
+body  {
   display: flex;
   flex-direction: column;
-  width: 50%;
 }
-#portrait {
-  width: 25%;
+
+#bio  {
+  flex: 0 1 25%;
 }
 #kaiden {
-  width: 25%;
+  width: 10%;
   height: auto;
   opacity: .75;
   margin: 15px;
@@ -51,7 +46,7 @@ main  {
   
 }
 .left-text  {
-  flex: 0 1 75%;
+  flex: 0 1 25%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   border-style: ridge;
@@ -59,7 +54,7 @@ main  {
   border-color: bisque;
   font-size: 18px;
   margin: 10px;
-  width: 60%;
+  width: 25%;
   
 }
 .title  {
@@ -73,8 +68,7 @@ main  {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-end;
-  flex: 0 1 60%;
-  width: 50%;
+  flex: 0 1 75%;
 }
 .bodies {
   display: flex;
