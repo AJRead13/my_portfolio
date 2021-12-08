@@ -90,8 +90,12 @@ nav ul li label {
   flex: 0 1 48%;
 }
 #bigOne {
-  flex: 0 1 100%;
+  flex: 0 1 85%;
   margin: 10px; 
+}
+#horiseon {
+  width: 90%;
+  height: auto;
 }
 .space  {
   width: 65%;
