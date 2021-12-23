@@ -37,13 +37,13 @@ header  {
   margin-right: 25px;
   padding-right: 20px;
   padding-left: 20px;
-  position: fixed;
-  right: 250px;
-  background: linear-gradient(0.25turn, #01415c, #556e61, #045801);
-  border-style: ridge;
+  /* position: fixed;
+  right: 250px; */
+  /* background: linear-gradient(0.25turn, #01415c, #556e61, #045801); */
+  /* border-style: ridge;
   border-color: black;
   border-width: 5px;
-  opacity: .75;
+  opacity: .75; */
 }
 nav ul li{
   display: inline-block;

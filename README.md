@@ -1,21 +1,23 @@
 # My Portfolio
 ## Description
-- The scope of this assignment was to build a web page from scratch that will serve as our Portfolio page.
-- I have built this project to showcase my abilities to write and stylize a web page from the ground up and also create a page to showcase my current, completed works.
-- I ran into many issues during the construction of this page, but through diligent research, have managed to overcome most of them, namely, FLexbox.  
-- Through this assignment I have learned better practices for nesting flexbox as well many techniques to make a page more appealing and dynamic.
+- This being the second iteration of my developer portfolio, I have updated it to reflect some of the actual work and projects I have worked on thus far.
+- The purpose of this is to begin to showcase my abilities and work through a centralized location so that potential employers can view what I have worked on so far.
+- As I continue to learn and develop additional skills, I will be able to schowcase them here on this page as well as provide links to projects that have particular emphasis on certain facets of development.  
+
+
 ## Table of Contents (Optional)
-If your README is long, add a table of contents to make it easy for users to find what they need.
+
 - [Installation](#installation) -- No install necessary
 - [Usage](#usage)-Open in Browser
 - [Credits](#credits) N/A
 - [License](#license) MIT License
+
 ## Installation
 No install required
 ## Usage
 Open in browser. https://ajread13.github.io/my_portfolio/
 ## Screenshot
-![screenshot](assets/images/devportfolioss.png)
+![screenshot](assets/images/updatedProfile.png)
 ## Credits
 List of collaborators: None
 ## License
@@ -43,7 +45,7 @@ SOFTWARE.
 ## Badges
 N/A
 ## Features
-Build with mobile devices and viewports in mind.
+Built with mobile devices and viewports in mind.
 ## How to Contribute
 No contributions necessary.
 ## Tests
