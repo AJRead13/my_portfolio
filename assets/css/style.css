@@ -3,6 +3,9 @@
   font-size: 18px;
   color: azure;
 }
+html{
+  scroll-behavior: smooth;
+}
 body  {
   background:rgb(80, 91, 102);  
 }
